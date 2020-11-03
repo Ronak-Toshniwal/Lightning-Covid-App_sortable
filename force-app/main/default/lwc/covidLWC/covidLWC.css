@@ -1,0 +1,48 @@
+
+.head {
+    width: 80vw;
+}
+
+.sub{
+    display:flex;
+    justify-content:space-around;
+}
+
+
+nav{
+    display:flex;
+    background-color: aqua;
+    justify-content: space-around;
+    
+}
+.one {
+    background-color:blue;
+    padding:10px;
+    font-weight:bold;
+    width:25%;
+    text-align:center;
+}
+.two {
+    background-color:yellow;
+    padding:10px;
+    font-weight:bold;
+    width:25%;
+    text-align:center;
+}
+.three {
+    background-color:green;
+    padding:10px;
+    font-weight:bold;
+    width:25%;
+    text-align:center;
+}
+.four {
+    background-color:rgb(175, 170, 170);
+    padding:10px;
+    font-weight:bold;
+    width:25%;
+    text-align:center;
+}
+.tableHead{
+    margin-top:10px;
+}

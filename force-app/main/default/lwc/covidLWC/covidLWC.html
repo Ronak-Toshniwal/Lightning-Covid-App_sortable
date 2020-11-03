@@ -1,0 +1,23 @@
+<template >
+    <header class="head" >
+        <main class="sub" >
+            <div class="one"><p> Total Confirmed</p> {global.TotalConfirmed}</p></div>
+            <div class="two"><p> New Confirmed</p> {global.NewConfirmed}</p></div>
+            <div class="three"><p> Total Recovered</p> {global.TotalRecovered}</p></div>
+            <div class="four"><p> Total Deaths</p>{global.TotalDeaths}</p></div>
+        </main>
+        
+    </header>
+        <main class="tableHead">
+            <lightning-datatable
+                key-field="id"
+                columns={columns}
+                data={data}
+                hide-checkbox-column
+                default-sort-direction={defaultSortDirection}
+                sorted-direction={sortDirection}
+                sorted-by={sortedBy}
+                onsort={onHandleSort}>
+            </lightning-datatable>
+    </main>
+</template>
